@@ -15,4 +15,13 @@ function isPrime(number){
 
 }
 
+// function primeRange(arr){
+//   let primeArray = [];
+//   for(let i = 0; i < arr.length; i++){
+//     const prime = isPrime(arr[i]);
+//     primeArray.push(prime)
+//   }
+//   return primeArray
+// }
+
 console.log(isPrime(7))
